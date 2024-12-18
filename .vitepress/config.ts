@@ -1,10 +1,86 @@
 import fs from 'fs'
 import path from 'path'
-import { defineConfigWithTheme } from 'vitepress'
+import { defineConfigWithTheme, defineConfig } from 'vitepress'
 import type { Config as ThemeConfig } from '@vue/theme'
 import baseConfig from '@vue/theme/config'
 import { headerPlugin } from './headerMdPlugin'
+import UnoCSS from 'unocss/vite'
 // import { textAdPlugin } from './textAdMdPlugin'
+import './uno.config.ts'
+
+const defaultLocale: string = 'zhHans';
+const supportLocales: string[] = [defaultLocale, 'en']; // 国际化语言
+
+interface VitePressSidebarOptions {
+  documentRootPath?: string;
+  scanStartPath?: string;
+  resolvePath?: string;
+  basePath?: string;
+  collapsed?: boolean | null | undefined;
+  collapseDepth?: number;
+  hyphenToSpace?: boolean;
+  underscoreToSpace?: boolean;
+  capitalizeFirst?: boolean;
+  capitalizeEachWords?: boolean;
+  includeRootIndexFile?: boolean;
+  includeFolderIndexFile?: boolean;
+  useTitleFromFileHeading?: boolean;
+  useTitleFromFrontmatter?: boolean;
+  useFolderTitleFromIndexFile?: boolean;
+  useFolderLinkFromIndexFile?: boolean;
+  useFolderLinkFromSameNameSubFile?: boolean;
+  includeDotFiles?: boolean;
+  folderLinkNotIncludesFileName?: boolean;
+  includeEmptyFolder?: boolean;
+  sortMenusByName?: boolean;
+  sortMenusByFrontmatterOrder?: boolean;
+  sortMenusByFrontmatterDate?: boolean;
+  sortMenusByFileDatePrefix?: boolean;
+  sortMenusOrderByDescending?: boolean;
+  sortMenusOrderNumericallyFromTitle?: boolean;
+  sortMenusOrderNumericallyFromLink?: boolean;
+  sortFolderTo?: null | undefined | 'top' | 'bottom';
+  keepMarkdownSyntaxFromTitle?: boolean;
+  debugPrint?: boolean;
+  manualSortFileNameByPriority?: string[];
+  excludePattern?: string[];
+  excludeFilesByFrontmatterFieldName?: string;
+  removePrefixAfterOrdering?: boolean;
+  prefixSeparator?: string | RegExp;
+  rootGroupText?: string;
+  rootGroupLink?: string;
+  rootGroupCollapsed?: boolean | null | undefined;
+  frontmatterOrderDefaultValue?: number;
+  frontmatterTitleFieldName?: string;
+  debugPrintFromWithSidebar?: boolean;
+  excludeFiles?: string[];
+  excludeFolders?: string[];
+  convertSameNameSubFileToGroupIndexPage?: boolean;
+}
+
+const commonSidebarConfig: VitePressSidebarOptions = {
+  debugPrint: false,
+  manualSortFileNameByPriority: ['introduction.md', 'guide', 'advanced-usage'],
+  excludePattern: ['changelog.md'],
+  collapsed: false,
+  capitalizeFirst: true,
+  useTitleFromFileHeading: true,
+  useTitleFromFrontmatter: true,
+  useFolderTitleFromIndexFile: true,
+  frontmatterOrderDefaultValue: 9, // For 'CHANGELOG.md'
+  sortMenusByFrontmatterOrder: true
+};
+
+const vitePressSidebarConfig = [
+  ...supportLocales.map((lang) => {
+    return {
+      ...commonSidebarConfig,
+      documentRootPath: `/docs/${lang}`,
+      resolvePath: `/${lang}/`, //defaultLocale === lang ? '/' : `/${lang}/`,
+      ...(defaultLocale === lang ? {} : { basePath: `/${lang}/` })
+    };
+  })
+];
 
 const nav: ThemeConfig['nav'] = [
   {
@@ -18,14 +94,14 @@ const nav: ThemeConfig['nav'] = [
       // { text: 'Style Guide', link: '/style-guide/' },
       { text: 'Glossary', link: '/glossary/' },
       { text: 'Error Reference', link: '/error-reference/' },
-      {
-        text: 'Vue 2 Docs',
-        link: 'https://v2.vuejs.org'
-      },
-      {
-        text: 'Migration from Vue 2',
-        link: 'https://v3-migration.vuejs.org/'
-      }
+      // {
+      //   text: 'Vue 2 Docs',
+      //   link: 'https://v2.vuejs.org'
+      // },
+      // {
+      //   text: 'Migration from Vue 2',
+      //   link: 'https://v3-migration.vuejs.org/'
+      // }
     ]
   },
   {
@@ -567,8 +643,29 @@ export const sidebar: ThemeConfig['sidebar'] = {
 }
 
 // Placeholder of the i18n config for @vuejs-translations.
-// const i18n: ThemeConfig['i18n'] = {
-// }
+const i18n: ThemeConfig['i18n'] = {
+  '/': {
+    selectText: '选择语言',
+    label: '简体中文',
+    ariaLabel: '选择语言',
+    editLinkText: '在 GitHub 上编辑此页',
+    lastUpdated: '上次更新',
+    nav: [
+      { text: '指南', link: '/guide/' },
+      { text: 'API', link: '/api/' },
+      { text: '示例', link: '/examples/' },
+      { text: '博客', link: '/blog/' }
+    ],
+    // sidebar: {
+    //   '/guide/': [
+    //     {
+    //       text: '指南',
+    //       children: ['/', '/guide/introduction']
+  }
+}
+
+console.log('i18n', i18n);
+
 
 export default defineConfigWithTheme<ThemeConfig>({
   extends: baseConfig,
@@ -577,7 +674,23 @@ export default defineConfigWithTheme<ThemeConfig>({
     hostname: 'https://vuejs.org'
   },
 
-  lang: 'en-US',
+  // lang: 'en-US',
+  lang: 'zh-CN',
+  locales: {
+    root: {
+      label: '中文',
+      lang: 'zh-CN',
+      title: 'Vue.js',
+      description: 'Vue.js - 渐进式 JavaScript 框架'
+    },
+    en: {
+      label: 'English',
+      lang: 'en-US',
+      link: '/en/',
+      title: 'Vue.js',
+      description: 'Vue.js - The Progressive JavaScript Framework'
+    }
+  },
   title: 'Vue.js',
   description: 'Vue.js - The Progressive JavaScript Framework',
   srcDir: 'src',
@@ -649,74 +762,89 @@ export default defineConfigWithTheme<ThemeConfig>({
     nav,
     sidebar,
     // Placeholder of the i18n config for @vuejs-translations.
-    // i18n,
+    i18n,
 
     localeLinks: [
-      {
-        link: 'https://cn.vuejs.org',
-        text: '简体中文',
-        repo: 'https://github.com/vuejs-translations/docs-zh-cn'
-      },
-      {
-        link: 'https://ja.vuejs.org',
-        text: '日本語',
-        repo: 'https://github.com/vuejs-translations/docs-ja'
-      },
-      {
-        link: 'https://ua.vuejs.org',
-        text: 'Українська',
-        repo: 'https://github.com/vuejs-translations/docs-uk'
-      },
-      {
-        link: 'https://fr.vuejs.org',
-        text: 'Français',
-        repo: 'https://github.com/vuejs-translations/docs-fr'
-      },
-      {
-        link: 'https://ko.vuejs.org',
-        text: '한국어',
-        repo: 'https://github.com/vuejs-translations/docs-ko'
-      },
-      {
-        link: 'https://pt.vuejs.org',
-        text: 'Português',
-        repo: 'https://github.com/vuejs-translations/docs-pt'
-      },
-      {
-        link: 'https://bn.vuejs.org',
-        text: 'বাংলা',
-        repo: 'https://github.com/vuejs-translations/docs-bn'
-      },
-      {
-        link: 'https://it.vuejs.org',
-        text: 'Italiano',
-        repo: 'https://github.com/vuejs-translations/docs-it'
-      },
-      {
-        link: 'https://fa.vuejs.org',
-        text: 'فارسی',
-        repo: 'https://github.com/vuejs-translations/docs-fa'
-      },
-      {
-        link: 'https://ru.vuejs.org',
-        text: 'Русский',
-        repo: 'https://github.com/translation-gang/docs-ru'
-      },
-      {
-        link: 'https://cs.vuejs.org',
-        text: 'Čeština',
-        repo: 'https://github.com/vuejs-translations/docs-cs'
-      },
-      {
-        link: 'https://zh-hk.vuejs.org',
-        text: '繁體中文',
-        repo: 'https://github.com/vuejs-translations/docs-zh-hk'
-      },
-      {
-        link: '/translations/',
-        text: 'Help Us Translate!',
-        isTranslationsDesc: true
-      }
+      // {
+      //   link: '/',
+      //   text: '中文',
+      //   isTranslationsDesc: true
+      // },
+      // {
+      //   link: '/en/',
+      //   text: 'English'
+      // },
+      // {
+      //   link: '/en/',
+      //   text: 'English',
+      //   // repo: 'https://github.com/vuejs-translations/docs-zh-cn'
+      //   isTranslationsDesc: true
+      // },
+      // {
+      //   link: 'https://cn.vuejs.org',
+      //   text: '简体中文',
+      //   repo: 'https://github.com/vuejs-translations/docs-zh-cn'
+      // },
+      // {
+      //   link: 'https://ja.vuejs.org',
+      //   text: '日本語',
+      //   repo: 'https://github.com/vuejs-translations/docs-ja'
+      // },
+      // {
+      //   link: 'https://ua.vuejs.org',
+      //   text: 'Українська',
+      //   repo: 'https://github.com/vuejs-translations/docs-uk'
+      // },
+      // {
+      //   link: 'https://fr.vuejs.org',
+      //   text: 'Français',
+      //   repo: 'https://github.com/vuejs-translations/docs-fr'
+      // },
+      // {
+      //   link: 'https://ko.vuejs.org',
+      //   text: '한국어',
+      //   repo: 'https://github.com/vuejs-translations/docs-ko'
+      // },
+      // {
+      //   link: 'https://pt.vuejs.org',
+      //   text: 'Português',
+      //   repo: 'https://github.com/vuejs-translations/docs-pt'
+      // },
+      // {
+      //   link: 'https://bn.vuejs.org',
+      //   text: 'বাংলা',
+      //   repo: 'https://github.com/vuejs-translations/docs-bn'
+      // },
+      // {
+      //   link: 'https://it.vuejs.org',
+      //   text: 'Italiano',
+      //   repo: 'https://github.com/vuejs-translations/docs-it'
+      // },
+      // {
+      //   link: 'https://fa.vuejs.org',
+      //   text: 'فارسی',
+      //   repo: 'https://github.com/vuejs-translations/docs-fa'
+      // },
+      // {
+      //   link: 'https://ru.vuejs.org',
+      //   text: 'Русский',
+      //   repo: 'https://github.com/translation-gang/docs-ru'
+      // },
+      // {
+      //   link: 'https://cs.vuejs.org',
+      //   text: 'Čeština',
+      //   repo: 'https://github.com/vuejs-translations/docs-cs'
+      // },
+      // {
+      //   link: 'https://zh-hk.vuejs.org',
+      //   text: '繁體中文',
+      //   repo: 'https://github.com/vuejs-translations/docs-zh-hk'
+      // },
+      // {
+      //   link: '/translations/',
+      //   text: 'Help Us Translate!',
+      //   isTranslationsDesc: true
+      // }
     ],
 
     algolia: {
@@ -728,10 +856,10 @@ export default defineConfigWithTheme<ThemeConfig>({
       }
     },
 
-    carbonAds: {
-      code: 'CEBDT27Y',
-      placement: 'vuejsorg'
-    },
+    // carbonAds: {
+    //   code: 'CEBDT27Y',
+    //   placement: 'vuejsorg'
+    // },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/' },
@@ -785,6 +913,27 @@ export default defineConfigWithTheme<ThemeConfig>({
     },
     json: {
       stringify: true
-    }
+    },
+    plugins: [
+      UnoCSS()
+    ]
   }
 })
+
+// export default defineConfig({
+//   locales: {
+//     root: {
+//       label: '中文',
+//       lang: 'zhHans',
+//       title: 'Vue.js',
+//       description: 'Vue.js - 渐进式 JavaScript 框架'
+//     },
+//     en: {
+//       label: 'English',
+//       lang: 'en',
+//       link: '/en/',
+//       title: 'Vue.js',
+//       description: 'Vue.js - The Progressive JavaScript Framework'
+//     }
+//   }
+// })

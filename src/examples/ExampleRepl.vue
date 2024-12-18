@@ -26,7 +26,6 @@ const preferSFC = inject('prefer-sfc') as Ref<boolean>
 watchEffect(updateExample, {
   onTrigger(e) {
     console.log(e)
-    debugger
   }
 })
 onHashChange(updateExample)
