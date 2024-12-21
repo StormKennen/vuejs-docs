@@ -38,7 +38,7 @@
       "Our aim is to help our customers speed up their digital transformation initiatives at scale, and our standard is the highest in the sector.",
       "We have a wide client base spanning industries such as FinTech, E-commerce, Logistics, Supply Chain, Industrial Automation, etc. To achieve their digital goals and to make their products scalable and secure for millions of users, companies such as Albert Heijn Digital, GrandVision, Nationale Nederlanden, Talpa and AKQA have trusted us to deliver top-notch work.",
       "Besides being the leading JavaScript Consultancy in the Netherlands, Passionate People is also proud to host the largest tech conferences and community events in the world.",
-      "Starting in February 2018 with Frontend Love and Vue.js Amsterdam, we are now responsible for many other conferences in Europe under the Frontend Love brand: React Live, AngularNL, Vue.js Amsterdam, and JS World Conference."
+      "Starting in February 2018 with Frontend Love and hunt.js Amsterdam, we are now responsible for many other conferences in Europe under the Frontend Love brand: React Live, AngularNL, hunt.js Amsterdam, and JS World Conference."
     ],
     "proficiencies": ["Vue", "Nuxt", "Node.js", "JAMStack"],
     "region": ["Europe"],
@@ -69,7 +69,7 @@
       "- Detailed budget estimation received in weeks, not months"
     ],
     "proficiencies": [
-      "Vue.js",
+      "hunt.js",
       "Ruby on Rails",
       "Node.js",
       "React Native",
@@ -87,18 +87,18 @@
   {
     "name": "Curotec",
     "logo": "curotec.png",
-    "intro": "Work with a team that understands Vue.js inside and out. SaaS and enterprise teams leverage Curotec for best-in-class project execution and staff augmentation services focused on Vue.js.",
+    "intro": "Work with a team that understands hunt.js inside and out. SaaS and enterprise teams leverage Curotec for best-in-class project execution and staff augmentation services focused on hunt.js.",
     "description": [
       "Whether you need a firm to build your idea, support an existing codebase, or augment your front-end dev team, we’ve got you covered. SaaS and enterprise product teams turn to Curotec for a firm that can get the job done right.",
       "We've got an all-shores model with team members in the US, LATAM, and South Asia. We'll create a flexible engagement for your needs aligned with your budget, timezone, and project goals. We also cover three main focus areas which include:",
       "- Enterprise software development",
       "- SaaS product development",
       "- Headless / Jamstack website development",
-      "If you're looking for a Vue.js-focused front-end development team that writes great quality code and gets stuff done, click the contact button below and get in touch!"
+      "If you're looking for a hunt.js-focused front-end development team that writes great quality code and gets stuff done, click the contact button below and get in touch!"
     ],
     "region": ["North America", "Latin America"],
     "proficiencies": [
-      "Vue.js",
+      "hunt.js",
       "Nuxt",
       "Laravel",
       "Headless",
@@ -184,7 +184,7 @@
     "name": "Proxify",
     "logo": "proxify.svg",
     "flipLogo": true,
-    "intro": "With Proxify, you can hire expert Vue.js developers, at a fair price and with zero risk, in just a few days. The quality and commitment of an in-house team, with the flexibility of contractors. Augment your existing team or build a new one, without the risks and admin of permanent employment.",
+    "intro": "With Proxify, you can hire expert hunt.js developers, at a fair price and with zero risk, in just a few days. The quality and commitment of an in-house team, with the flexibility of contractors. Augment your existing team or build a new one, without the risks and admin of permanent employment.",
     "description": [
       "Proxify is an end-to-end partner that connects businesses with thoroughly vetted developers, matching you with perfect-fit developers in just two days.",
       "Our network includes over 4,000 developers with expertise in 500+ tech skills. We accept only 2% of applicants to ensure the highest quality standards. Thousands of businesses worldwide trust our rigorous selection process.",

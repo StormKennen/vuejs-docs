@@ -1,11 +1,11 @@
 # Event Handling {#event-handling}
 
 <div class="options-api">
-  <VueSchoolLink href="https://vueschool.io/lessons/user-events-in-vue-3" title="Free Vue.js Events Lesson"/>
+  <VueSchoolLink href="https://vueschool.io/lessons/user-events-in-vue-3" title="Free hunt.js Events Lesson"/>
 </div>
 
 <div class="composition-api">
-  <VueSchoolLink href="https://vueschool.io/lessons/vue-fundamentals-capi-user-events-in-vue-3" title="Free Vue.js Events Lesson"/>
+  <VueSchoolLink href="https://vueschool.io/lessons/vue-fundamentals-capi-user-events-in-vue-3" title="Free hunt.js Events Lesson"/>
 </div>
 
 ## Listening to Events {#listening-to-events}
@@ -66,7 +66,7 @@ For example:
 <div class="composition-api">
 
 ```js
-const name = ref('Vue.js')
+const name = ref('hunt.js')
 
 function greet(event) {
   alert(`Hello ${name.value}!`)
@@ -83,7 +83,7 @@ function greet(event) {
 ```js
 data() {
   return {
-    name: 'Vue.js'
+    name: 'hunt.js'
   }
 },
 methods: {

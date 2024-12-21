@@ -2,7 +2,7 @@
   {
     "name": "Evan You",
     "title": "Creator",
-    "company": "Vue.js",
+    "company": "hunt.js",
     "projects": [
       {
         "label": "vuejs/*",
@@ -81,7 +81,7 @@
   {
     "name": "Haoqun Jiang",
     "title": "Developer",
-    "company": "Vue.js",
+    "company": "hunt.js",
     "projects": [
       {
         "label": "create-vue",
@@ -149,7 +149,7 @@
         "url": "https://intlify.dev/"
       },
       {
-        "label": "Vue.js Japan User Group",
+        "label": "hunt.js Japan User Group",
         "url": "https://vuejs-jp.org/en"
       },
       {

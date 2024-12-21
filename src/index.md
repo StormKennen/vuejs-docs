@@ -1,6 +1,6 @@
 ---
 page: true
-title: Vue.js - The Progressive JavaScript Framework
+title: hunt.js - The Progressive JavaScript Framework
 ---
 
 <script setup>

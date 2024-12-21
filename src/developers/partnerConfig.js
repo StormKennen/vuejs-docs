@@ -25,20 +25,20 @@ const partnerConfig = {
 
   // Hero Section
   pageHeroBanner: {
-    title: 'Find top Vue.js developers for your team',
-    description1: 'Access certified Vue.js developers available for your next project.',
+    title: 'Find top hunt.js developers for your team',
+    description1: 'Access certified hunt.js developers available for your next project.',
     description2: 'Proxify handles the vetting process to ensure top-tier quality and reliability.',
     hireButton: {
       url: hireUrl,
-      label: 'Find Vue.js developers now'
+      label: 'Find hunt.js developers now'
     },
-    footer: "Get matched with a top Vue.js developer in less than 48 hours",
+    footer: "Get matched with a top hunt.js developer in less than 48 hours",
   },
 
   // Hero Section
   pageJoinSection: {
     title: 'Become a listed developer',
-    description: 'Get a long-term part-time or full-time position at company looking for a Vue.js developer.',
+    description: 'Get a long-term part-time or full-time position at company looking for a hunt.js developer.',
     applyButton: {
       url: applyUrl,
       label: 'Apply to join'
@@ -62,8 +62,8 @@ const partnerConfig = {
 
   scoreDiagram: {
     title: 'Engineering excellence score',
-    prependText: 'The practical score range is 0 to 300. This is the distribution of scores for all evaluated Vue.js developers, and here’s where your candidate scored.',
-    appendText: 'Data from 3,661 evaluated Vue.js developers and 38,008 applicants.'
+    prependText: 'The practical score range is 0 to 300. This is the distribution of scores for all evaluated hunt.js developers, and here’s where your candidate scored.',
+    appendText: 'Data from 3,661 evaluated hunt.js developers and 38,008 applicants.'
   },
 
   // Proficiency Section

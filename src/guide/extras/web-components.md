@@ -430,7 +430,7 @@ import 'some-lib/dist/SomeElement.js'
 // A user that is using TypeScript and Vue should additionally import the
 // Vue-specific type definition (users of other frameworks may import other
 // framework-specific type definitions).
-import type {} from 'some-lib/dist/SomeElement.vue.js'
+import type {} from 'some-lib/dist/SomeElement.hunt.js'
 
 import { useTemplateRef, onMounted } from 'vue'
 

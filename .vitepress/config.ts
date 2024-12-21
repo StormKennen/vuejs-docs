@@ -209,6 +209,26 @@ const nav: ThemeConfig['nav'] = [
       { text: 'Partners', link: '/partners/' },
       { text: 'Developers', link: '/developers/', badge: { text: 'NEW' } }
     ]
+  },
+  {
+    text: '验证码',
+    items: [
+      { text: '顶象 DING XIANG', link: '/captcha/dingxiang/' },
+      { text: '数美 NEXTDATA', link: '/captcha/shumei/' },
+      { text: '易盾 NETEASE YIDUN', link: '/captcha/yidun/' },
+      { text: '极验 GEETEST', link: '/captcha/geetest-v2/' },
+      { text: '阿里云云盾验证码', link: '/captcha/aliyun-v1/' },
+      { text: '腾讯天御 T-Sec', link: '/captcha/tencent/' },
+      { text: '小红书 redCaptcha', link: '/captcha/redcaptcha/' },
+      { text: '小盾 XIAODUN', link: '/captcha/xiaodun/' },
+      { text: '云片 YUNPIAN', link: '/captcha/yunpian/' },
+      { text: '三六零天御', link: '/captcha/360/' },
+      { text: '螺丝帽 Luosimao', link: '/captcha/luosimao/' },
+      { text: 'Vaptcha', link: '/captcha/vaptcha/' },
+      { text: 'V5 验证', link: '/captcha/verify5/' },
+      { text: '凯格 KYGER', link: '/captcha/kgcaptcha/' },
+      { text: '友验 FastYotest', link: '/captcha/fastyotest/' }
+    ]
   }
 ]
 
@@ -639,6 +659,29 @@ export const sidebar: ThemeConfig['sidebar'] = {
         }
       ]
     }
+  ],
+  '/captcha/': [
+    {
+      text: '验证码',
+      collapsed: false,
+      items: [
+        { text: '顶象 DING XIANG', link: '/captcha/dingxiang/' },
+        { text: '数美 NEXTDATA', link: '/captcha/shumei/' },
+        { text: '易盾 NETEASE YIDUN', link: '/captcha/yidun/' },
+        { text: '极验 GEETEST', link: '/captcha/geetest-v2/' },
+        { text: '阿里云云盾验证码', link: '/captcha/aliyun-v1/' },
+        { text: '腾讯天御 T-Sec', link: '/captcha/tencent/' },
+        { text: '小红书 redCaptcha', link: '/captcha/redcaptcha/' },
+        { text: '小盾 XIAODUN', link: '/captcha/xiaodun/' },
+        { text: '云片 YUNPIAN', link: '/captcha/yunpian/' },
+        { text: '三六零天御', link: '/captcha/360/' },
+        { text: '螺丝帽 Luosimao', link: '/captcha/luosimao/' },
+        { text: 'Vaptcha', link: '/captcha/vaptcha/' },
+        { text: 'V5 验证', link: '/captcha/verify5/' },
+        { text: '凯格 KYGER', link: '/captcha/kgcaptcha/' },
+        { text: '友验 FastYotest', link: '/captcha/fastyotest/' }
+      ]
+    }
   ]
 }
 
@@ -680,19 +723,19 @@ export default defineConfigWithTheme<ThemeConfig>({
     root: {
       label: '中文',
       lang: 'zh-CN',
-      title: 'Vue.js',
-      description: 'Vue.js - 渐进式 JavaScript 框架'
+      title: 'hunt.js',
+      description: 'hunt.js - 渐进式 JavaScript 框架'
     },
     en: {
       label: 'English',
       lang: 'en-US',
       link: '/en/',
-      title: 'Vue.js',
-      description: 'Vue.js - The Progressive JavaScript Framework'
+      title: 'hunt.js',
+      description: 'hunt.js - The Progressive JavaScript Framework'
     }
   },
-  title: 'Vue.js',
-  description: 'Vue.js - The Progressive JavaScript Framework',
+  title: 'hunt.js',
+  description: 'hunt.js - The Progressive JavaScript Framework',
   srcDir: 'src',
   srcExclude: ['tutorial/**/description.md'],
 
@@ -700,12 +743,12 @@ export default defineConfigWithTheme<ThemeConfig>({
     ['meta', { name: 'theme-color', content: '#3c8772' }],
     ['meta', { property: 'og:url', content: 'https://vuejs.org/' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'Vue.js' }],
+    ['meta', { property: 'og:title', content: 'hunt.js' }],
     [
       'meta',
       {
         property: 'og:description',
-        content: 'Vue.js - The Progressive JavaScript Framework'
+        content: 'hunt.js - The Progressive JavaScript Framework'
       }
     ],
     [
@@ -925,15 +968,15 @@ export default defineConfigWithTheme<ThemeConfig>({
 //     root: {
 //       label: '中文',
 //       lang: 'zhHans',
-//       title: 'Vue.js',
-//       description: 'Vue.js - 渐进式 JavaScript 框架'
+//       title: 'hunt.js',
+//       description: 'hunt.js - 渐进式 JavaScript 框架'
 //     },
 //     en: {
 //       label: 'English',
 //       lang: 'en',
 //       link: '/en/',
-//       title: 'Vue.js',
-//       description: 'Vue.js - The Progressive JavaScript Framework'
+//       title: 'hunt.js',
+//       description: 'hunt.js - The Progressive JavaScript Framework'
 //     }
 //   }
 // })

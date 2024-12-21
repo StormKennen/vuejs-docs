@@ -5,7 +5,7 @@ import CallToActionSection from '@theme/components/CallToActionSection.vue'
 <template>
   <CallToActionSection
     title="Grow your business with Vue"
-    description="Generate leads for new projects, boost your credibility to your clients, and support the long term sustainability of Vue.js and its ecosystem."
+    description="Generate leads for new projects, boost your credibility to your clients, and support the long term sustainability of hunt.js and its ecosystem."
     link="https://airtable.com/shrCQhat57SApJI2l"
     linkText="Become a partner"
   />

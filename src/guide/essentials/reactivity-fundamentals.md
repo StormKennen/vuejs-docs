@@ -224,7 +224,7 @@ The reactivity system is discussed in more details in the [Reactivity in Depth](
 
 ## Declaring Methods \* {#declaring-methods}
 
-<VueSchoolLink href="https://vueschool.io/lessons/methods-in-vue-3" title="Free Vue.js Methods Lesson"/>
+<VueSchoolLink href="https://vueschool.io/lessons/methods-in-vue-3" title="Free hunt.js Methods Lesson"/>
 
 To add methods to a component instance we use the `methods` option. This should be an object containing the desired methods:
 

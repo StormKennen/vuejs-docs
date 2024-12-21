@@ -17,7 +17,7 @@ const p = (data as Partner[]).find(
 const { name, description, hiring, contact, contactPage, website } = p
 
 const contactLink = computed(() => {
-  return contact ? `mailto:${contact}?subject=Looking for a Vue.js Partner` : contactPage
+  return contact ? `mailto:${contact}?subject=Looking for a hunt.js Partner` : contactPage
 })
 </script>
 

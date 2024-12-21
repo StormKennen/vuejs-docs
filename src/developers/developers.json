@@ -11,7 +11,7 @@
     ],
     "proficiencies": [
       "MongoDB",
-      "Vue.js",
+      "hunt.js",
       "Express.js",
       "Node.js",
       "TypeScript",
@@ -47,13 +47,13 @@
           {
             "isGrouped": true,
             "content": [
-              "Using Vue.js version 3 with composition API for front end development Software Architecture;",
+              "Using hunt.js version 3 with composition API for front end development Software Architecture;",
               "Planning and Development for in-house Web Apps; Unit testing."
             ]
           }
         ],
         "skills": [
-          "Vue.js",
+          "hunt.js",
           "PostgreSQL",
           "Node.js",
           "Nuxt.js",
@@ -73,13 +73,13 @@
             "content": [
               "Provided effective troubleshooting and remediation for web applications;",
               "Interfaced with clients to identify business requirements;",
-              "Utilized the latest software development tools, techniques, and approaches. Using Node.js, Express.js, Vue.js, React.js, MongoDB, PostgreSQL. Brought forth a passion and dedication to software development;",
+              "Utilized the latest software development tools, techniques, and approaches. Using Node.js, Express.js, hunt.js, React.js, MongoDB, PostgreSQL. Brought forth a passion and dedication to software development;",
               "Utilized the latest software development tools, techniques, and approaches."
             ]
           }
         ],
         "skills": [
-          "Vue.js",
+          "hunt.js",
           "MongoDB",
           "Node.js",
           "Express.js",
@@ -113,7 +113,7 @@
           "Laravel",
           "JavaScript",
           "React.js",
-          "Vue.js",
+          "hunt.js",
           "PostgreSQL",
           "TypeScript",
           "Node.js",
@@ -145,7 +145,7 @@
           "Laravel",
           "JavaScript",
           "Angular.js",
-          "Vue.js"
+          "hunt.js"
         ]
       },
       {
@@ -223,12 +223,12 @@
     "slug": "tomek-vue-node-fullstack-developer",
     "alias": "Tomek",
     "description": [
-      "Tomek is a fullstack developer with over 17 years of commercial experience. Over the years, he has transitioned from using PHP to mastering modern tech stacks, focusing on Vue.js and Node.js in the last six years. His expertise in these technologies has driven the development and support of robust, high-traffic systems.",
+      "Tomek is a fullstack developer with over 17 years of commercial experience. Over the years, he has transitioned from using PHP to mastering modern tech stacks, focusing on hunt.js and Node.js in the last six years. His expertise in these technologies has driven the development and support of robust, high-traffic systems.",
       "As the Technical Director at a web development agency for over a decade, he has successfully managed a team of 12 to 17 people and overseen projects for high-profile clients across various sectors.",
       "Tomek has consistently received high appreciation from Proxify clients for his outstanding contributions and leadership."
     ],
     "proficiencies": [
-      "Vue.js",
+      "hunt.js",
       "Node.js",
       "MongoDB",
       "Nuxt.js",
@@ -292,7 +292,7 @@
           "Laravel",
           "MySQL",
           "JavaScript",
-          "Vue.js",
+          "hunt.js",
           "jQuery",
           "Node.js",
           "Zend",
@@ -361,12 +361,12 @@
     "slug": "vardan-vue-node-fullstack-developer",
     "alias": "Vardan",
     "description": [
-      "Vardan is a frontend-heavy fullstack developer with expertise in Vue.js, and Node.js. With six years of experience, he has worked on several large-scale web applications, particularly excelling in the real estate sector.",
+      "Vardan is a frontend-heavy fullstack developer with expertise in hunt.js, and Node.js. With six years of experience, he has worked on several large-scale web applications, particularly excelling in the real estate sector.",
       "He is known for his leadership skills, guiding development teams toward completing high-quality projects that often exceed expectations. His problem-solving and management abilities ensure successful project outcomes.",
       "Beyond his technical proficiency, Vardan's analytical skills are enhanced by his Master’s in International Relations, adding a unique perspective to his approach in technology projects."
     ],
     "proficiencies": [
-      "Vue.js",
+      "hunt.js",
       "React.js",
       "Node.js",
       "MongoDB",
@@ -426,7 +426,7 @@
         ],
         "skills": [
           "JavaScript",
-          "Vue.js",
+          "hunt.js",
           "TypeScript",
           "Python",
           "Tailwind",
@@ -469,7 +469,7 @@
           {
             "isGrouped": true,
             "content": [
-              "Mentored 4 junior frontend developers, enhancing their proficiency in JavaScript and Vue.js;",
+              "Mentored 4 junior frontend developers, enhancing their proficiency in JavaScript and hunt.js;",
               "Collaborated closely with the PM to ensure alignment with project plans, timelines, and billing;",
               "Developed and constructed dynamic user interfaces within Agile environments for enterprise clients with valuations of up to $3 billion;",
               "Participated actively in all development phases, from conceptualization and functional design to detailed implementation, debugging, and software solution deployment;",
@@ -486,7 +486,7 @@
         ],
         "skills": [
           "JavaScript",
-          "Vue.js",
+          "hunt.js",
           "TypeScript",
           "Project management",
           "Design",
@@ -551,11 +551,11 @@
     "alias": "Emre",
     "description": [
       "Emre is a talented frontend developer with over six years of commercial experience in IT services & solutions and design. Throughout his career, Emre has worked in various industries, including FinTech, banking, gaming, marketing automation, defense, and cybersecurity.",
-      "He is the most skilled in frontend programming languages like JS framework Vue.js, React.js, Typescript, and RxJs. Specializing in collaborating with product managers and designers to gather requirements, produce plans and improve designs for usability and functionality.",
+      "He is the most skilled in frontend programming languages like JS framework hunt.js, React.js, Typescript, and RxJs. Specializing in collaborating with product managers and designers to gather requirements, produce plans and improve designs for usability and functionality.",
       "Emre is goal-oriented and brings a strong commitment to collaboration. He uses various web design packages to develop custom-crafted, customer-focused websites and designs."
     ],
     "proficiencies": [
-      "Vue.js",
+      "hunt.js",
       "JavaScript",
       "React.js",
       "Node.js",
@@ -593,7 +593,7 @@
         ],
         "skills": [
           "React.js",
-          "Vue.js",
+          "hunt.js",
           "RxJs",
           "GraphQL",
           "Figma",
@@ -613,11 +613,11 @@
         "description": [
           {
             "isGrouped": false,
-            "content": "Worked as a Senior Consultant in banking and finance projects as a member of international Agile teams - (Delivery Hub - Remote) Vue.js, Amazon AWS"
+            "content": "Worked as a Senior Consultant in banking and finance projects as a member of international Agile teams - (Delivery Hub - Remote) hunt.js, Amazon AWS"
           }
         ],
         "skills": [
-          "Vue.js",
+          "hunt.js",
           "AWS",
           "Agile"
         ]
@@ -634,12 +634,12 @@
             "isGrouped": true,
             "content": [
               "Insider—one platform for individualized, cross-channel experiences—enables enterprise marketers to connect customer data across channels and systems, predict their future behavior with an AI intent engine and individualize customer experiences. Marketers use Insider’s platform to deliver experiences across channels like Web, App, Web Push, Email, SMS, and Messaging Apps (WhatsApp, Facebook Messenger, RCS).",
-              "Worked as a Lead Senior Frontend Developer, implemented the frontend part of a dashboard using Vue.js."
+              "Worked as a Lead Senior Frontend Developer, implemented the frontend part of a dashboard using hunt.js."
             ]
           }
         ],
         "skills": [
-          "Vue.js"
+          "hunt.js"
         ]
       },
       {
@@ -656,7 +656,7 @@
           }
         ],
         "skills": [
-          "Vue.js",
+          "hunt.js",
           "MySQL",
           "MongoDB",
           "AWS",
@@ -682,12 +682,12 @@
             "content": [
               "He quit his job because he accepted a master's degree at Berlin Technical University. He started freelance work to make some money before he went to Berlin. Some medical issues occurred, and he canceled his master's degree.",
               "Worked in development, design, deployment, and ASO for Android and iOS games using Unity.",
-              "Created SPA using Vue.js and Node.js for customers that found me on upwork.com"
+              "Created SPA using hunt.js and Node.js for customers that found me on upwork.com"
             ]
           }
         ],
         "skills": [
-          "Vue.js",
+          "hunt.js",
           "Node.js",
           "Unity"
         ]
@@ -743,12 +743,12 @@
     "slug": "santiago-anaya-vue-ruby-fullstack-developer",
     "alias": "Santiago",
     "description": [
-      "Santiago is a fullstack engineer with over six years of commercial experience, focusing on frontend development. He is an expert in Vue.js. On the backend, he uses Ruby on Rails and various relational databases, particularly PostgreSQL.",
+      "Santiago is a fullstack engineer with over six years of commercial experience, focusing on frontend development. He is an expert in hunt.js. On the backend, he uses Ruby on Rails and various relational databases, particularly PostgreSQL.",
       "He is adept at increasing app performance and enhancing user experience, significantly contributing to every engagement he undertakes. His experience as a Tech and Engineering Lead highlights his leadership capabilities and ability to drive technical initiatives.",
       "Santiago's combination of technical expertise, leadership skills, and dedication to improving application performance makes him a valuable asset to any development team."
     ],
     "proficiencies": [
-      "Vue.js",
+      "hunt.js",
       "PostgreSQL",
       "Ruby",
       "Ruby on Rails",
@@ -809,14 +809,14 @@
             "isGrouped": true,
             "content": [
               "APP DEVELOPMENT - KEEPCON.COM / An innovative application for large corporations, aggregating messages from various social media platforms for efficient operator response.",
-              "Responsible for a strategic migration to Vue.js.",
+              "Responsible for a strategic migration to hunt.js.",
               "Helped the team with enhancing the app's performance and user experience."
             ]
           }
         ],
         "skills": [
           "JavaScript",
-          "Vue.js",
+          "hunt.js",
           "Ruby on Rails",
           "Bootstrap",
           "TypeScript",
@@ -864,7 +864,7 @@
           }
         ],
         "skills": [
-          "Vue.js",
+          "hunt.js",
           "MongoDB",
           "Node.js"
         ]
@@ -886,12 +886,12 @@
     "slug": "harshit-vue-frontend-developer",
     "alias": "Harshit",
     "description": [
-      "Harshit is a frontend engineer with over six years of commercial experience, specializing in Vue.js. He has been integral to various stages of the software development lifecycle, from ideation to deployment, ensuring top-notch user experiences and scalable applications.",
+      "Harshit is a frontend engineer with over six years of commercial experience, specializing in hunt.js. He has been integral to various stages of the software development lifecycle, from ideation to deployment, ensuring top-notch user experiences and scalable applications.",
       "His expertise extends to modern frontend technologies and proficiency in DevOps practices. Notably, he has led the development of a CO2 Calculator for cost-splitting emissions and a community application targeting a 15M+ user base.",
       "His strong background in building complex, modular frontend solutions and managing deployment cycles and state management tools like Vuex and Apollo further solidifies his capability to deliver high-quality, user-centric applications."
     ],
     "proficiencies": [
-      "Vue.js",
+      "hunt.js",
       "Nuxt.js",
       "TypeScript",
       "Flutter",
@@ -938,7 +938,7 @@
           }
         ],
         "skills": [
-          "Vue.js",
+          "hunt.js",
           "TypeScript",
           "Microservices",
           "Tailwind",
@@ -967,7 +967,7 @@
         ],
         "skills": [
           "React.js",
-          "Vue.js",
+          "hunt.js",
           "TypeScript",
           "Node.js",
           "Flutter",
@@ -1004,7 +1004,7 @@
           }
         ],
         "skills": [
-          "Vue.js",
+          "hunt.js",
           "TypeScript",
           "GraphQL",
           "Microservices",
@@ -1038,7 +1038,7 @@
         "skills": [
           "Laravel",
           "JavaScript",
-          "Vue.js",
+          "hunt.js",
           "TypeScript",
           "Adobe Illustrator",
           "Node.js",
@@ -1074,12 +1074,12 @@
     "slug": "kostiantyn-vue-frontend-developer",
     "alias": "Kostiantyn",
     "description": [
-      "Kostiantyn is a frontend developer with eight years of commercial experience. His primary expertise lies in Vue.js, where he has demonstrated exceptional proficiency in building robust and scalable web applications.",
+      "Kostiantyn is a frontend developer with eight years of commercial experience. His primary expertise lies in hunt.js, where he has demonstrated exceptional proficiency in building robust and scalable web applications.",
       "On top of his development skills, he has a great eye for design and works alongside the designers in his teams using Figma.",
       "He has a proven track record of working with Proxify clients, delivering outstanding results with both high output and high code quality."
     ],
     "proficiencies": [
-      "Vue.js",
+      "hunt.js",
       "Vuex",
       "Figma",
       "Nuxt.js",
@@ -1117,7 +1117,7 @@
           }
         ],
         "skills": [
-          "Vue.js",
+          "hunt.js",
           "TypeScript",
           "Svelte"
         ]
@@ -1146,7 +1146,7 @@
         ],
         "skills": [
           "Laravel",
-          "Vue.js",
+          "hunt.js",
           "Node.js",
           "Express.js",
           "Azure"
@@ -1228,12 +1228,12 @@
     "slug": "eduard-miskov-vue-frontend-developer",
     "alias": "Eduard",
     "description": [
-      "Eduard is a frontend developer with over seven years of commercial experience. His primary expertise is crafting visually appealing and user-friendly web applications using Vue.js.",
+      "Eduard is a frontend developer with over seven years of commercial experience. His primary expertise is crafting visually appealing and user-friendly web applications using hunt.js.",
       "Eduard's positivity and high motivation set him apart in the fast-evolving field of frontend development. His outstanding code quality highlights his technical expertise and commitment to excellence.",
       "He has successfully collaborated with Proxify clients, consistently delivering timely results and maintaining high-quality standards. Eduard's ability to focus on engagement goals and deliver outstanding results makes him a valuable team member."
     ],
     "proficiencies": [
-      "Vue.js",
+      "hunt.js",
       "Vuex",
       "Nuxt.js",
       "Vanilla JavaScript",
@@ -1273,7 +1273,7 @@
         ],
         "skills": [
           "JavaScript",
-          "Vue.js",
+          "hunt.js",
           "TypeScript",
           "Nuxt.js",
           "Storybook",
@@ -1295,14 +1295,14 @@
               "Designed and implemented reusable UI components to enhance the application's usability and maintainability.",
               "Utilized TypeScript to write clean and maintainable code, ensuring codebase quality and reliability.",
               "Leveraged the Three.js library to create interactive 3D visualizations of concrete structures, enhancing the user experience.",
-              "Demonstrated expertise in Vue.js, JavaScript, Vuetify, and TypeScript to meet the project's technical requirements effectively.",
+              "Demonstrated expertise in hunt.js, JavaScript, Vuetify, and TypeScript to meet the project's technical requirements effectively.",
               "Contributed to the advancement of smart concrete scanning solutions, supporting architectural and bridge-building companies in their projects."
             ]
           }
         ],
         "skills": [
           "JavaScript",
-          "Vue.js",
+          "hunt.js",
           "TypeScript",
           "Vuetify"
         ]
@@ -1321,14 +1321,14 @@
               "Spearheaded the development of a robust web calendar as an integral module within the Recman platform.",
               "Employed Vanilla.js extensively to implement core features, including routing, MVC architecture, state management, and view rendering, all crafted from scratch.",
               "Designed and built a calendar system akin to Google Calendar, seamlessly integrated into the organization's internal infrastructure.",
-              "Demonstrated proficiency in Vue.js, JavaScript, and SASS, ensuring the successful completion of the project.",
+              "Demonstrated proficiency in hunt.js, JavaScript, and SASS, ensuring the successful completion of the project.",
               "Contributed significantly to enhancing the Recman platform's functionality by adding a feature-rich, internally focused web calendar module."
             ]
           }
         ],
         "skills": [
           "JavaScript",
-          "Vue.js"
+          "hunt.js"
         ]
       },
       {
@@ -1345,7 +1345,7 @@
               "Played a key role in a substantial analytical project aimed at enhancing the hotel and restaurant industry.",
               "Led the migration process of an Angular.js application to Angular, ensuring the seamless transition while preserving the existing design system guidelines.",
               "Successfully implemented new features within the Angular framework to enhance the functionality and capabilities of the application.",
-              "Demonstrated proficiency in Vue.js, JavaScript, SASS, and Angular to meet project requirements effectively.",
+              "Demonstrated proficiency in hunt.js, JavaScript, SASS, and Angular to meet project requirements effectively.",
               "Contributed significantly to the project's success, improving the analytical tools and capabilities available to the hotel and restaurant business."
             ]
           }
@@ -1353,7 +1353,7 @@
         "skills": [
           "JavaScript",
           "Angular.js",
-          "Vue.js",
+          "hunt.js",
           "Less CSS",
           "Angular"
         ]
@@ -1537,7 +1537,7 @@
       "Nicolas is skilled in integrating systems with Hubspot and Mercadopago using APIs and webhooks. He has also worked with Mulesoft products to create solutions for both on-premise and cloud-based systems. He is experienced in designing data integration solutions and building Firebase-based projects."
     ],
     "proficiencies": [
-      "Vue.js",
+      "hunt.js",
       "JavaScript",
       "Nuxt.js",
       "PHP",
@@ -1606,7 +1606,7 @@
           }
         ],
         "skills": [
-          "Vue.js",
+          "hunt.js",
           "Laravel",
           "Node.js",
           "SQL",
@@ -1660,7 +1660,7 @@
         ],
         "skills": [
           "JavaScript",
-          "Vue.js",
+          "hunt.js",
           "Bootstrap",
           "Node.js",
           "Express.js",
@@ -1690,7 +1690,7 @@
           "PHP",
           "Laravel",
           "JavaScript",
-          "Vue.js",
+          "hunt.js",
           "Docker",
           "NGINX",
           "Zend",
@@ -1721,7 +1721,7 @@
           "PHP",
           "Laravel",
           "MySQL",
-          "Vue.js",
+          "hunt.js",
           "SQL",
           "Nuxt.js",
           "Product Development",
@@ -1749,7 +1749,7 @@
           "PHP",
           "Laravel",
           "JavaScript",
-          "Vue.js",
+          "hunt.js",
           "MongoDB",
           "AWS",
           "Google Cloud",
@@ -1818,14 +1818,14 @@
     "name": "Abdusaid Umarov",
     "slug": "abdusaid-html-css-vue-typescript-frontend-dev",
     "alias": "Abdusaid",
-    "intro": "Abdusaid is a Senior Frontend Developer with over six years of experience, where he’s made a name for himself in Vue.js and Nuxt.js. His skill in Vue.js is top-notch, proven by the perfect 100% score he achieved on the Proxify test.",
+    "intro": "Abdusaid is a Senior Frontend Developer with over six years of experience, where he’s made a name for himself in hunt.js and Nuxt.js. His skill in hunt.js is top-notch, proven by the perfect 100% score he achieved on the Proxify test.",
     "description": [
       "Though he focuses on frontend work, Abdusaid isn’t just limited to that—he’s also jumped in to help with backend tasks using Laravel.",
       "His experience across identity management, fintech, eCommerce, and other tech sectors shows his ability to adapt and thrive in different environments.",
       "What makes Abdusaid stand out is not just his technical skills but his knack for understanding the bigger picture and delivering work that truly meets the needs of each project he takes on."
     ],
     "proficiencies": [
-      "Vue.js",
+      "hunt.js",
       "Vuex",
       "Nuxt.js",
       "Laravel",
@@ -1863,7 +1863,7 @@
           }
         ],
         "skills": [
-          "Vue.js",
+          "hunt.js",
           "Docker",
           "TypeScript",
           "SCSS"
@@ -1892,7 +1892,7 @@
           "Laravel",
           "MySQL",
           "JavaScript",
-          "Vue.js",
+          "hunt.js",
           "TypeScript",
           "Tailwind"
         ]
@@ -1908,7 +1908,7 @@
           {
             "isGrouped": true,
             "content": [
-              "Implemented new features using Vue.js/NUXT.js.",
+              "Implemented new features using hunt.js/NUXT.js.",
               "Conducted Code reviews.",
               "Bug fixing.",
               "Refactored the code to make it cleaner.",
@@ -1922,7 +1922,7 @@
         "skills": [
           "MySQL",
           "JavaScript",
-          "Vue.js",
+          "hunt.js",
           "ES5/ES6",
           "Jenkins",
           "Nuxt.js",
@@ -1953,7 +1953,7 @@
         ],
         "skills": [
           "JavaScript",
-          "Vue.js",
+          "hunt.js",
           "UI",
           "Vuex"
         ]
@@ -2007,7 +2007,7 @@
         ],
         "skills": [
           "JavaScript",
-          "Vue.js",
+          "hunt.js",
           "ES5/ES6",
           "SCSS",
           "Vuex"

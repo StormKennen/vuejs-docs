@@ -15,7 +15,7 @@ const developer = ref(developersData.find(dev => dev.slug === page.value.params.
 
 onMounted(() => {
   if (developer.value) {
-    document.title = `${developer.value.name} - Vue Developer | Vue.js`
+    document.title = `${developer.value.name} - Vue Developer | hunt.js`
   }
 })
 </script>

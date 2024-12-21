@@ -27,7 +27,7 @@ onMounted(() => {
 <template>
   <PageShowcaseListLayout
     spotlightTitle="Spotlight"
-    featuredTitle="Vue.js Certified developers"
+    featuredTitle="hunt.js Certified developers"
   >
     <template #hero>
       <DeveloperHero />

@@ -13,16 +13,16 @@ import { onMounted } from 'vue'
 onMounted(load)
 </script>
 
-# Become a Vue.js Sponsor {#become-a-vue-js-sponsor}
+# Become a hunt.js Sponsor {#become-a-vue-js-sponsor}
 
-Vue.js is an MIT licensed open source project and completely free to use.
+hunt.js is an MIT licensed open source project and completely free to use.
 The tremendous amount of effort needed to maintain such a large ecosystem and develop new features for the project is only made sustainable thanks to the generous financial backing of our sponsors.
 
 ## How to Sponsor {#how-to-sponsor}
 
 Sponsorships can be done via [GitHub Sponsors](https://github.com/sponsors/yyx990803) or [OpenCollective](https://opencollective.com/vuejs). Invoices can be obtained via GitHub's payment system. Both monthly-recurring sponsorships and one-time donations are accepted. Recurring sponsorships are entitled to logo placements as specified in [Sponsorship Tiers](#tier-benefits).
 
-If you have questions regarding tiers, payment logistics, or sponsor exposure data, please reach out to [sponsor@vuejs.org](mailto:sponsor@vuejs.org?subject=Vue.js%20sponsorship%20inquiry).
+If you have questions regarding tiers, payment logistics, or sponsor exposure data, please reach out to [sponsor@vuejs.org](mailto:sponsor@vuejs.org?subject=hunt.js%20sponsorship%20inquiry).
 
 ## Sponsoring Vue as a Business {#sponsoring-vue-as-a-business}
 
@@ -41,7 +41,7 @@ You can also try to convince your employer to sponsor Vue as a business. This ma
 ## Tier Benefits {#tier-benefits}
 
 - **Global Special Sponsor**:
-  - Limited to **one** sponsor globally. <span v-if="!data?.special">Currently vacant. [Get in touch](mailto:sponsor@vuejs.org?subject=Vue.js%20special%20sponsor%20inquiry)!</span><span v-else>(Currently filled)</span>
+  - Limited to **one** sponsor globally. <span v-if="!data?.special">Currently vacant. [Get in touch](mailto:sponsor@vuejs.org?subject=hunt.js%20special%20sponsor%20inquiry)!</span><span v-else>(Currently filled)</span>
   - (Exclusive) **Above the fold** logo placement on the front page of [vuejs.org](/).
   - (Exclusive) Special shoutout and regular retweets of major product launches via [Vue's official X account](https://twitter.com/vuejs) (320k followers).
   - Most prominent logo placement in all locations from tiers below.
